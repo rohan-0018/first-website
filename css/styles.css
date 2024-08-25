@@ -148,3 +148,61 @@ a{
     justify-content: center;
     align-items: center;
 }
+.btn{
+    font-size: 1.8rem;
+    font: 600;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    border: 0;
+    margin: 1rem 0rem;
+    border-radius: 40px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.btn--primary{
+    background: var(--color-primary);
+    color: #fff;
+}
+.btn--secondary{
+    background:var(--color-secondary);
+    color:#fff;
+}
+.btn--acent{
+    background: var(--color-acent);
+    color: #fff;
+}
+
+.btn--primary:hover{
+    background: #3a8ffd;
+}
+.btn--secondary:hover{
+    background: #00c8eb;
+}
+.btn--acent:hover{
+    background: #ec3000;
+}
+.btn--block{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+.btn--outline{
+    background: var(--color-heading);
+    color: #fff;
+    border: 2px solid var(--color-heading);
+}
+.btn--outline:hover{
+    background: var(--color-heading);
+    color: #fff;
+}
+@media screen and (min-width:1024px){
+    .btn{
+        font-size: 1.5rem;
+    }
+    
+}
