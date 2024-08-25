@@ -206,3 +206,20 @@ a{
     }
     
 }
+.input{
+    border: 1px solid #ccc;
+    padding: 1.5rem 3.5rem;
+    border-radius: 30px;
+    outline: 0; 
+    font-size: 2rem;
+    color:var(--color-heading)
+}
+.input::placeholder{
+    color: #cdcbd7;
+}
+@media screen and (min-width:1024px){
+    .input{
+        font-size: 1.5rem;
+    }
+    
+}
