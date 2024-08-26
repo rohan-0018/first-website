@@ -293,6 +293,18 @@ a{
 .plan .list_item{
     margin-bottom: 2rem;
 }
+.plan--popular .card__heading{
+    position: relative ;
+}
+.plan--popular .card__heading::before{
+    content: url(/css/images/popular.svg);
+    width:40px;
+    display: inline-block;
+    position: absolute;
+    top: -6px;
+    right: 5%;
+
+}
 @media  screen and (min-width:1024px) {
     .plan__name{
         font-size: 1.4rem;
